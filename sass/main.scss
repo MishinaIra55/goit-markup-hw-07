@@ -1,37 +1,32 @@
-@import './base/normalize';
-@import './base/variables';
-@import './base/base';
 
 @import './utils/visually-hidden';
 @import './utils/placeholders';
 @import './utils/mixin';
+@import './utils/variables';
+
+@import './base/reset';
+@import './base/common';
+
+@import './components/button';
+@import './components/cards-portfolio';
+@import './components/checkbox';
+@import './components/line-portfolio';
+@import './components/modal';
+@import './components/overlay-portfolio';
+@import './components/textarea-placeholder';
 
 @import './layouts/container';
-@import './layouts/header';
 @import './layouts/section';
-@import './layouts/footer';
+@import './layouts/header';
 @import './layouts/menu-auth-nav';
 @import './layouts/menu-site-nav';
-
-
-@import './ui/button';
-@import './ui/checkbox';
-@import './ui/form-field';
-@import './ui/textarea-placeholder';
-@import './ui/line-portfolio';
-
-
-@import './components/about-section';
-@import './components/cards-portfolio';
-@import './components/clients-section';
-@import './components/features-section';
-@import './components/hero-section';
-@import './components/modal';
-@import './components/_overlay-portfolio';
-@import './components/portfolio-section';
-
-@import './components/team-section';
-
+@import './layouts/hero-section';
+@import './layouts/features-section';
+@import './layouts/about-section';
+@import './layouts/team-section';
+@import './layouts/clients-section';
+@import './layouts/portfolio-section';
+@import './layouts/footer';
 
 
 

@@ -292,6 +292,7 @@ body {
   position: absolute;
   top: 8px;
   right: 8px;
+  cursor: pointer;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -471,15 +472,15 @@ body {
   align-items: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header__auth-nav a:hover, .header__auth-nav a:focus {
-  color: var(--accent-color);
-}
-.header__auth-nav:hover .icon-link, .header__auth-nav:focus .icon-link {
-  fill: var(--accent-color);
-}
 
 .header__auth-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header__auth-icon:hover, .header__auth-icon:focus {
+  color: var(--accent-color);
+}
+.header__auth-icon:hover .icon-link, .header__auth-icon:focus .icon-link {
+  fill: var(--accent-color);
 }
 
 .icon-link {
